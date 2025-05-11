@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-    margin: 0;
-    padding: 0;
     font-size: 16px;
 }
 
@@ -14,5 +14,27 @@ h1 {
     padding: 10px;
     background-color: crimson;
     color: white;
-    font-size: 3.5rem;
+    font-size: 3rem;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+thead {
+    background-color: crimson;
+    color: white;
+    font-size: 1.5rem;
+}
+
+tr, td {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.tags {
+    background-color: yellow;
+
 }
